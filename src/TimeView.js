@@ -138,7 +138,7 @@ var DateTimePickerTime = createClass({
 		this.setState( this.calculateState( this.props ) );
 	},
 
-	componentWillReceiveProps: function( nextProps ) {
+	UNSAFE_componentWillReceiveProps: function( nextProps ) {
 		this.setState( this.calculateState( nextProps ) );
 	},
 
