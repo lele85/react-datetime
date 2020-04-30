@@ -108,7 +108,7 @@ var DateTimePickerTime = createClass({
 		);
 	},
 
-	componentWillMount: function() {
+	UNSAFE_componentWillMount: function() {
 		var me = this;
 		me.timeConstraints = {
 			hours: {
